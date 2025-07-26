@@ -3,7 +3,7 @@ const crypto = require('crypto');
 
 // Simulate a payment.captured webhook payload
 const payload = {
-  event: 'payment.captured',
+  event: 'payment.faild',
   payload: {
     payment: {
       entity: {
