@@ -15,8 +15,8 @@ const webhook = async (req, res) => {
     // Try sending the real order notification email with dummy fallback if order details are not available
     const event = req.body.event;
     const payload = req.body.payload;
-    // if (event === "payment.captured") {
-    if (event == "invoice.paid") {
+    if (event === "payment.captured") {
+    // if (event == "invoice.paid") {
       const payment = payload.payment.entity;
       const userId = payment.notes.userId;
       const email = payment.email;
@@ -96,7 +96,7 @@ const webhook = async (req, res) => {
   const event = req.body.event;
   const payload = req.body.payload;
 
-  if (event == "invoice.paid") {
+  if (event == "payment.captured") {
     const payment = payload.payment.entity;
 
     // Example: metadata was passed when order was created (via frontend)
