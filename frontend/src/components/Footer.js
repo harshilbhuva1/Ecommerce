@@ -34,7 +34,7 @@ const Footer = () => {
             <h3 className="text-md font-semibold text-orange-800 mb-1">Follow Us</h3>
             <div className="flex justify-center md:justify-start">
               <a
-                href="https://instagram.com/yourbrand"
+                href="https://www.instagram.com/harshil_bhuva_?igsh=MTNsbjB1b21la3FhZg=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-600 hover:text-orange-500 transition"
