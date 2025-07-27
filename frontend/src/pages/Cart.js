@@ -259,7 +259,7 @@ const Cart = () => {
 
     const addressDetails = `🏠 *Address:*\n${fullName}, ${flat}, ${street}, ${city}, ${state} - ${pincode}\n📞 Phone: ${phone}`;
     const message = `📦 *New Order Request*\n\n${productList}\n\n💰 *Total:* ₹${totalPrice}\n\n${addressDetails}`;
-    const phoneNumber = '917046050558';
+    const phoneNumber = '919428868843';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
