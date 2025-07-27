@@ -10,11 +10,11 @@ const productCategory = [
     // { id : 10, label : "Trimmers", value : "trimmers"},
     // { id : 11, label : "Televisions", value : "televisions"},
     // { id : 1, label : "Mobiles", value : "mobiles"},
-    { id : 0, label : "Watchesmain", value :"watchesmain"},
+    { id : 0, label : "Popular", value :"popular"},
     { id : 1, label : "Watches", value : "watches"},
     { id : 2, label : "Rolex-Watches", value : "rolex"},
-    { id : 3, label : "Fossil", value : "fossil"},
-     { id : 4, label : "Omega x Swatchs", value : "omega"},
+     { id : 3, label : "Omega x Swatchs", value : "omega"},
+     { id : 4, label : "Fossil", value:"fossil"},
      { id : 5, label : "Girl's Expensive Watches", value : "girls"},
 ]
 
