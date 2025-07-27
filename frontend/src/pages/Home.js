@@ -44,12 +44,12 @@ const Home = () => {
       <BannerProduct/>
 
       
-      <HorizontalCardProduct category={"watchesmain"} heading={"Popular's Watches"}/>
+      <HorizontalCardProduct category={"popular"} heading={"Popular's Watches"}/>
 
       <VerticalCardProduct category={"watches"} heading={"Watches"}/>
       <VerticalCardProduct category={"rolex"} heading={"Rolex-Watches"}/>
-      <VerticalCardProduct category={"fossil"} heading={"Fossil"}/>
       <VerticalCardProduct category={"omega"} heading={"Omega x Swatchs"}/>
+       <VerticalCardProduct category={"fossil"} heading={"Fossil"}/>
       <VerticalCardProduct category={"girls"} heading={"Girl's Expensive Watches"}/>
 
 
